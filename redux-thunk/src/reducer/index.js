@@ -1,9 +1,11 @@
-import ChangeTheNUmber  from "./upDown";
+import ChangeTheNumber  from "./upDown";
 
 import {combineReducers} from 'redux'
+import usersReducer from "./usersReducer";
 
 const rootReducers = combineReducers({
-    ChangeTheNUmber
+    users: usersReducer,
+
 })
 
 export default rootReducers;

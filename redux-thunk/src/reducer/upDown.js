@@ -1,7 +1,8 @@
 import { Increment } from "../actions";
 
 const initialstate = 0
-const ChangeTheNUmber = (state = initialstate, action) =>{
+const ChangeTheNumber = (state = initialstate, action) =>{
+    debugger
          switch (action.type) {
             case "INCREMENT":
                 return state + 1
@@ -11,4 +12,4 @@ const ChangeTheNUmber = (state = initialstate, action) =>{
          }
 }
 
-export default ChangeTheNUmber;
+export default ChangeTheNumber;
